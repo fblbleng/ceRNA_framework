@@ -1,5 +1,9 @@
 # ceRNA–scRNA Integration Pipeline
 
+This repository implements an integrated framework for combining competing endogeneous RNA (ceRNA) network data with single-cell RNA sequencing (scRNA-seq) data.  Our dual-view autoencoder leverages graph convolutional and attention mechanism to learn robust latent representaitons that capture both ceRNA regulatory interactions and cell-specific expression profiles.
+
+
+
 ## 1. Data Preprocessing and ceRNA Network Construction
 
 ### ceRNA Network Assembly
