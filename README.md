@@ -28,13 +28,14 @@ The ceRNA network captures regulatory interactions among mRNAs, lncRNAs, and (op
 - Result: every network node has an associated single-cell expression profile.
 
 ---
-*** Usage ***
-'''
+***Usage***
+
+```
 python preprocess_scRNA.py \
   --expr data/raw/scRNA_normalized.tsv \
   --network data/processed/ceRNA_interactions_merged.tsv \
   --out data/processed/scRNA_filtered.tsv
-'''
+```
 ## 2. Integrated Encoder Architecture
 
 A dual-view encoder captures both the regulatory network structure and single-cell expression variability.
